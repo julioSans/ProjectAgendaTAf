@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="main.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Croissant+One&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+  <title>Agenda </title>
+</head>
+<body>
+  <div class="interface">
+    <form id="form-Contato">
+    <div class="divStyleAgenda">
+      <h1>Agenda <br> de <br> contatos </h1>
+      <input type="text" id="nome-contact" placeholder="Nome do Contato" maxlenght="" size="21"required>
+      <input type="tel" id="numero-contact" pattern="[0-9]{11}" title="Por favor, insira um número válido " placeholder="(+55) ----- ---- " maxlength="11" size="21"required>
+      <div class="enviar">
+        <button type="submit" id="Bsubmit">
+          Enviar 
+        </button>
+      </div>
+     <div class="limpar">
+      <button type="reset">
+        Limpar
+      </button>
+     </div>
+    </div>
+  </div>
+</form>
+  <div class="interfaceTable">
+    <div class="conteinerTable">
+         <table border="1">
+           <h1>Lita de contato  </h1>
+           <thead>
+             <!-- cabecalho da table -->
+             <tr>
+                        <td> Nome </td>
+                        <td> telefone</td>
+                      </tr>
+                    </thead>
+                    <!-- corpo da table -->
+                    <tbody>
+                      <tr>
+                        <td>   </td>
+                        <td>   </td>
+                      </tr>
+                    </tbody>
+                    <tfoot>
+                      <!-- rodapé da tabela -->  
+                    </tfoot>
+                  </table>
+              </div>
+   </div>
+<script src="main.js"></script>
+</body>
+</html>

@@ -1,0 +1,121 @@
+/* config globais  */
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+/* fonts I used in my project
+{ fonts usadas 
+    font-family: 'Anton', sans-serif;
+    font-family: 'Croissant One', serif;
+    font-family: 'Roboto', sans-serif;
+} */
+
+
+body{
+  background-color:#52616B;
+}
+
+.divStyleAgenda {
+  padding:25px;
+  border-radius:10px ;
+  height: 500px;
+  background-color: rgb(210, 203, 203);
+}
+
+.interface {
+  display: flex;
+  position: relative;
+  left: 80px;
+  top: 100px;
+  width: 500px;
+}
+
+.interface h1 {
+  font-family: 'Roboto', sans-serif; 
+  margin-bottom: 90px;
+  color: rgb(45, 62, 56);
+  font-size: 35px;
+
+}
+
+form input{
+  font-size: 18px;
+  border-radius: 8px;
+  margin: 10px;
+  display: flex;
+  color: #fff;
+  background-color: rgb(0, 0, 0);
+  padding: 10px;
+  margin-left: 20px;
+
+}
+/* editing os buttons  */
+.enviar button {
+  font-size: 12px;
+  position: absolute;
+  top: 445px;
+  left: 240px;
+  color: #fff;
+  background-color:#599d6b;
+  border-radius: 8px;
+  padding: 5px;
+  margin-left: 10px;
+  }
+
+  .limpar button{
+    position: absolute;
+    top: 445px;
+    left: 180px;
+    font-size: 12px;
+    border-radius: 8px;
+    padding: 5px;
+    margin-left: 10px;
+  }
+
+  /* editing a minha tabela  */
+  .interfaceTable {
+    position: relative;
+    width: 540px;
+    left: 700px;
+    top: -400px;
+    color: aliceblue;
+    
+  }
+
+  .conteinerTable {
+    position: relative;
+    background-color:  rgb(210, 203, 203);
+    width: 200px;
+    height: 250px;
+    border-radius: 5px;
+    padding: 15px;
+     
+  }
+
+.interfaceTable h1 {
+  font-family: 'Roboto', sans-serif; 
+  color:rgb(45, 62, 56);
+  font-size:15px ;
+  position: relative;
+  left: -10px;
+  padding: 0px;
+  margin: 10px;
+}
+
+/* editing a minha table  */
+table tr {
+  margin: 20px;
+  padding: 14px;
+  color: rgb(34, 30, 30);
+  font-size:20px;
+}
+
+table thead{
+  font-family: 'Croissant One', serif;;
+  padding: 0px;
+  font-size: 1px;
+  background-color: rgb(167, 167, 181);
+  width: 200px;
+}
